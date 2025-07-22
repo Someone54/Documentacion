@@ -36,15 +36,25 @@ $$ v_BL(x,y) = v_TR(x+a,y+a) + \varphi$$
 
 Esto anterior es ejemplificado más claramente con la siguiente imagen:
 
-*Imagen*
+<p align="center">
+    <img src="{{ site.baseurl }}/assets/img/periodicConditionsFEM.png" alt="Relación entre nodos de acuerdo con las condiciones de periodicidad impuesta por las ecuaciones adicionales." width="800">
+</p>
 
 En últimas, estas ecuaciones adicionales causan la reducción del sistema matricial, donde se puede utilizar un solucionador lineal para hallar nuestro nuevo vector de desplazamientos reducido, $\{ U_R \}$. El nuevo sistema se ve así:
 
-$$ [T] [K] [T^T] \{U_R \} = [T] \{F\} $$
+$$ [T] [K] [T^T] \{U^* \} = [T] \{F\} $$
 
-Donde $[T]$ se puede escribir como la siguiente matriz:
+Donde $[T]$ es la matriz que aparece de la siguiente interpetación:
 
+$$ U = T U^* $$
 
+Donde $U$ es el vector de desplazamientos del sistema original y $U^*$ es el vector de desplazamientos reducido, que contiene la información de los desplazamientos de nodos internos, $U_{int}$, y de los nodos independientes, $U_{ind}$;
+
+$$ U^* = \begin{bmatrix} U_{int} & U_{ind} \end{bmatrix} $$
+
+De modo que la matriz T guarda la información de las asociaciones de grados de libertad de los desplazamientos dependientes con sus respectivos nodos en los desplazamientos dependientes:
+
+$$ T = \begin{bmatrix} I & 0 \\ 0 & I \\ 0 & U_{dep}^X \\ 0 & U_{dep}^Y \\ 0 & U_{dep}^{XY} \end{bmatrix}  $$
 
 
 
