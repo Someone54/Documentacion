@@ -13,7 +13,7 @@ La geometría del material que obtenemos a partir de la traducción de las imág
 
 $$ [K] \{U\} = \{F\} $$
 
-Donde $[K]$ es la matriz de rigidez del sistema, $\{U\}$ es el vector de desplazamientos y $\{F\}$ el vector de fuerzas. Utilizaremos elementos de tipo barra para las simulaciones FEM, por lo que cada uno de los nodos de nuestra malla tiene asociados 2 grados de libertad (ó DoF por sus siglas en inglés); uno en la dirección $x$ y otro en la dirección $y$. Pra nuestro caso particular, esto implica que si realizamos el análisis FEM para una geometría con 64x64 elementos, el número de nodos en cada una de las direcciones del material sería de 65 (uno más que el número de elementos en cada dirección) y el número de DoF globales sería de $65*2=130$. 
+Donde $[K]$ es la matriz de rigidez del sistema, $\{U\}$ es el vector de desplazamientos y $\{F\}$ el vector de fuerzas. Utilizaremos elementos de tipo barra para las simulaciones FEM, por lo que cada uno de los nodos de nuestra malla tiene asociados 2 grados de libertad (ó DoF por sus siglas en inglés); uno en la dirección $x$ y otro en la dirección $y$. Para nuestro caso particular, esto implica que si realizamos el análisis FEM para una geometría con 64x64 elementos, el número de nodos en cada una de las direcciones del material sería de 65 (uno más que el número de elementos en cada dirección) y el número de DoF globales sería de $65*2=130$. 
 
 Las condiciones de restricción adicionales a este sistema se usan para dar coherencia a la condición de periodicidad del problema. Lo que hacemos con estas condiciones es, por ejemplo, asociar los grados de libertad de la pared izquierda de nuestro material con los grados de libertad de la pared derecha, de modo que imponemos que el desplazamiento de este último conjunto de nodos sea igual (o con una constante adicional, $\varphi$ de diferencia) al conjunto que se encuentra en el lado opuesto de nuestra geometría. Esta asociación de grados de libertad también se impone entre los nodos inferiores y superiores, al igual que entre el nodo de la esquina inferior izquierda y el de la esquina superior derecha. Los nodos internos no son restringidos por ninguna ecuación.
 
@@ -31,8 +31,8 @@ $$ v_B(x,y) = v_T(x+a,y) + \varphi$$
 
 - Asociación de desplazamientos esquina inferior izquierda-esquina superior derecha: 
 
-$$ u_BL(x,y) = u_TR(x+a,y+a) + \varphi$$
-$$ v_BL(x,y) = v_TR(x+a,y+a) + \varphi$$
+$$ u_{BL}(x,y) = u_{TR}(x+a,y+a) + \varphi$$
+$$ v_{BL}(x,y) = v_{TR}(x+a,y+a) + \varphi$$
 
 Esto anterior es ejemplificado más claramente con la siguiente imagen:
 
@@ -44,7 +44,7 @@ En últimas, estas ecuaciones adicionales causan la reducción del sistema matri
 
 $$ [T] [K] [T^T] \{U^* \} = [T] \{F\} $$
 
-Donde $[T]$ es la matriz que aparece de la siguiente interpetación:
+Donde $[T]$ es la matriz que aparece de la siguiente interpretación:
 
 $$ U = T U^* $$
 
