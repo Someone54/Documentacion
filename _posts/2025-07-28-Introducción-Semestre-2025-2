@@ -1,0 +1,20 @@
+---
+title: Introducción Semestre 2025-2
+tags: Acta
+---
+
+La reunión se realizó con normalidad en el horario contemplado de 5:00 PM a 6:00 PM con un porcentaje alto de asistencia de personas.
+
+Allí se discutieron inicialmente aspectos de la lista de videos y contenido que se dejó como compromiso para su revisión, correspondiente a la creación de una arquitectura Pytorch contenida en el siguiente link: [https://youtube.com/playlist?list=PLCC34OHNcOtpcgR9LEYSdi9r7XIbpkpK1&si=Nl2x1g4YeVimaF-I]. 
+
+Dado que faltaban algunas personas por abordar los videos, se dejó de tarea para la próxima reunión revisar la lista de videos y exponer las dudas, en caso de presentarlas, en el espacio programado.
+
+Luego se habló sobre el proceso de construcción de la red neuronal que, a partir de los videos anteriormente mencionados, se desarrollarán habilidades para llevarlo a cabo. La metodología consiste en la creación de grupos de 2 personas, donde **se generará 4 arquitecturas de red neuronal diferentes por grupo**, que se compararán para definir cual es la que mejor estima las propiedades reales, usando **validación cruzada** u otro método pertinente. Para crear diferentes arquitecturas de red neuronal se pueden emplear los artículos académicos investigados como inspiración, cambiar tamaño de filtros, número de capas y otros aspectos del mecanismo.
+
+Adicionalmente, se planea determinar el punto de correcta convergencia o entrenamiento para la red neuronal. Inicialmente se tienen 500.000 imágenes o datos generados, pero es probable que no se necesiten todos y, por ejemplo, a partir de 200.000 datos de entrenamiento ya se alcance un punto de convergencia. La idea es no sobreentrenar la red neuronal y, en caso de ser posible, optimizar el proceso. Para ello se plantean métodos de comparación visuales como gráficos o tablas, que comparen el número de muestras de entrenamiento y el error respecto al valor real.
+
+Como otro aspecto a mencionar, se discutió la propuesta de modelar el hueso humano como un material compuesto por dos fases con diferentes propiedades mecánicas: **hueso blando (cancellous bone) y hueso duro (compact bone)**. Se planteó como tarea buscar información específica sobre las propiedades mecánicas de ambas partes del hueso, teniendo en cuenta que estas propiedades pueden variar dependiendo del tipo de hueso, la edad, el sexo y otros factores individuales. Esta información será fundamental para definir con precisión los parámetros de entrada para la red neuronal.
+
+Finalmente, se informó que este semestre el proyecto participará oficialmente en la feria de proyectos de la universidad, denominada Universo Semilleros, la cual se llevará a cabo los días **27 y 28 de agosto**. Por tal motivo, se necesitan ponentes que representen al grupo durante el evento. Se hace un llamado a los integrantes para que manifiesten su disponibilidad y disposición para asumir este rol, dado que será una instancia clave para socializar y visibilizar el trabajo que se ha venido desarrollando en el semillero.
+
+
