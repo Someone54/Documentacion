@@ -3,9 +3,7 @@ title: Introducción Semestre 2025-2
 tags: Acta
 ---
 
-La reunión se realizó con normalidad en el horario contemplado de 5:00 PM a 6:00 PM con un porcentaje alto de asistencia de personas.
-
-Allí se discutieron inicialmente aspectos de la lista de videos y contenido que se dejó como compromiso para su revisión, correspondiente a la creación de una arquitectura Pytorch contenida en el siguiente link: [https://youtube.com/playlist?list=PLCC34OHNcOtpcgR9LEYSdi9r7XIbpkpK1&si=Nl2x1g4YeVimaF-I]. 
+Se discutieron inicialmente aspectos de la lista de videos y contenido que se dejó como compromiso para su revisión, correspondiente a la creación de una arquitectura Pytorch contenida en la siguiente [Playlist](https://youtube.com/playlist?list=PLCC34OHNcOtpcgR9LEYSdi9r7XIbpkpK1&si=Nl2x1g4YeVimaF-I). 
 
 Dado que faltaban algunas personas por abordar los videos, se dejó de tarea para la próxima reunión revisar la lista de videos y exponer las dudas, en caso de presentarlas, en el espacio programado.
 
