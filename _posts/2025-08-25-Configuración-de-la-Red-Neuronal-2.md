@@ -1,8 +1,7 @@
 ---
 title: Configuración de la Red Neuronal 2
-tags: [Acta]
+tags: Acta
 ---
-**Grupo Lunes**
 ## 1. Objetivo de la Reunión:
    La reunión tuvo como propósito revisar los avances del proyecto de investigación enfocado en el desarrollo de una inteligencia artificial para el diseño optimizado de prótesis y materiales arquitectados. Esta iniciativa busca responder a la problemática del acceso limitado a prótesis personalizadas, debido a su alto costo y complejidad técnica. 
 ## 2. Temas Principales Tratados:
