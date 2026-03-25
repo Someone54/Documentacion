@@ -22,7 +22,7 @@ Conversar de la lectura de los capitulos 1, 2 y 3 de el libro "Artificial Intell
 
 ## 2. Presentación de Papers
 
-Durante el espacio destinado para la presntación de los papers investigados se presento solamente uno por parte de Santiago Ayala, en el articulo "Scale-size effects analysis of optimal periodic material microstructures designed by the inverse homogenization method".
+Durante el espacio destinado para la presentación de los papers investigados se presento solamente uno por parte de Santiago Ayala, en el articulo "Scale-size effects analysis of optimal periodic material microstructures designed by the inverse homogenization method".
 
 El equipo de Coehlo indaga principalmente en un problema muy importante para tener en cuenta y es que si bien ellos ya tenian los datos para trabajar al tratar de trabajar con estructuras mucho mas detalladas como de 20x20x20 tenian un problema con la cantidad de energia y recursos que suponia poder trabajar con estas escalas de celdas unitarias.
 
